@@ -152,4 +152,44 @@
       </plugin>
     </plugins>
   </build>
+        <repositories>
+        <repository>
+          <id>fuse-internal</id>
+          <name>fuse-internal</name>
+          <url>http://download-node-02.eng.bos.redhat.com/brewroot/repos/jb-common-build/latest/maven/</url>
+          <layout>default</layout>
+        </repository>
+        <repository>
+          <id>redhat-ea</id>
+          <name>redhat-ea</name>
+          <url>https://maven.repository.redhat.com/earlyaccess/all</url>
+          <layout>default</layout>
+        </repository>
+		<repository>
+          <id>jboss-ea</id>
+          <name>jboss-ea</name>
+          <url>http://repository.jboss.org/nexus/content/groups/ea</url>
+          <layout>default</layout>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>fuse-internal</id>
+          <name>fuse-internal</name>
+          <url>http://download-node-02.eng.bos.redhat.com/brewroot/repos/jb-common-build/latest/maven/</url>
+          <layout>default</layout>
+        </pluginRepository>
+        <pluginRepository>
+          <id>redhat-ea</id>
+          <name>redhat-ea</name>
+          <url>https://maven.repository.redhat.com/earlyaccess/all</url>
+          <layout>default</layout>
+        </pluginRepository>
+		<pluginRepository>
+          <id>jboss-ea</id>
+          <name>jboss-ea</name>
+          <url>http://repository.jboss.org/nexus/content/groups/ea</url>
+          <layout>default</layout>
+        </pluginRepository>
+      </pluginRepositories>
 </project>
