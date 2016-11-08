@@ -8,7 +8,7 @@
             <transform id="route-transform">
                 <method ref="myTransformer"/>
             </transform>
-            <log id="route-log" message=">>> ${body}"/>
+            <log id="route-log" message=">>> yeah I updated it! ${body}"/>
         </route>
     </camelContext>
 </beans>
